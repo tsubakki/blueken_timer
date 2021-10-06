@@ -1,0 +1,102 @@
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+  border-color: #ffffff;
+}
+
+
+.timer_text {
+  float: left;
+  text-align: center;
+  color: white;
+  border: solid 2vh;
+  border-color: #262626;
+  border-radius: 2vh;
+  background-color: #262626;
+  font-size: 10vw;
+  width: 48vw;
+  -webkit-appearance: none;
+}
+
+.time_selector {
+  font-size: 7vw;
+  width: 30vw;
+  text-align: center;
+  color: white;
+  border: none;
+  background-color: #262626;
+}
+
+.color {
+  float: left;
+  text-align: center;
+}
+
+.red_button {
+  color: #ff6600;
+  border: none;
+  background-color: #ff6600;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vh #8c4a04;
+}
+
+.red_button:active {
+  box-shadow: none;
+  position: relative;
+  top: 1vh;
+}
+
+.blue_button {
+  color: #3366ff;
+  border: none;
+  background-color: #3366ff;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vh #1c3a7b;
+}
+
+.blue_button:active {
+  box-shadow: none;
+  position: relative;
+  top: 1vh;
+}
+
+.green_button {
+  color: #33cc00;
+  border: none;
+  background-color: #33cc00;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vh #14683e;
+}
+
+.green_button:active {
+  box-shadow: none;
+  position: relative;
+  top: 1vh;
+}
+
+.select {
+  float: left;
+  width: 48vw;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 21vh;
+}
+
+.logout_button {
+  color: white;
+  /* margin-bottom: 5%; */
+}
+
+body {
+  background-color: #262626;
+  margin: 0;
+}
+/*# sourceMappingURL=admin_timer.css.map */

@@ -1,0 +1,46 @@
+.form{
+    width: 35vw;
+    height: 43vh;
+    margin: auto;
+    margin-top: 25vh;
+    border-radius:3vw;
+    border:solid;
+    border-color: rgb(175, 175, 175);
+    text-align: center;
+    background-color: #383737;
+    .email{
+        color: white;
+        background-color: #4d4d4d;
+        border:none;
+        border-radius:1vw;
+        width: 25vw;
+        margin:5vh 0 2vh 0;
+        padding: 1vw;
+    }
+    .password{
+        color: white;
+        background-color: #4d4d4d;
+        border:none;
+        border-radius:1vw;
+        width: 25vw;
+        margin:2vh 0 2vh 0;
+        padding: 1vw;
+    }
+    .signin{
+        color:white;
+        background-color: #9fc044;
+        border:none;
+        border-radius:1vw;
+        width: 27vw;
+        margin:2vh 0 5vh 0;
+        padding: 1vw;
+        &:active {
+            background-color: #7a9434;
+          }
+    }
+}
+
+body{
+    background-color: #333232;
+    margin:0;
+}

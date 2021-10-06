@@ -1,0 +1,29 @@
+body{
+  background-color: #262626;
+}
+
+.form .email {
+  border: none;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.form .password {
+  border: none;
+  margin-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.form .signin {
+  color: white;
+  background-color: #9fc044;
+  border: none;
+  margin: 1vh 0 0 0;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.form .signin:active {
+  background-color: #7a9434;
+}

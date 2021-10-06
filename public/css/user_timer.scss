@@ -1,0 +1,22 @@
+.timer {
+    text-align: center;
+    .timer_text{
+        width:80vw; 
+        height:50vh;
+        color: white;
+        border:solid 5vh ;
+        border-color: #262626;
+        border-radius: 5vh;
+        background-color: #262626;
+        font-size:30vh;
+        text-align: center;
+        margin:18vh 0 18vh 0;
+        padding:0;
+        -webkit-appearance: none;
+    }
+}
+
+body{
+    background-color: #262626;
+    padding:0;
+}
